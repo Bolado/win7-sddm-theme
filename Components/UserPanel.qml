@@ -61,14 +61,6 @@ FocusScope {
         z: 4
     }
 
-    OpacityMask {
-        id: opacitymask
-        visible: true
-        anchors.fill: icon
-        source: icon
-        maskSource: mask
-    }
-
     Item {
         id: mask
         width: icon.width
@@ -117,7 +109,6 @@ FocusScope {
             passwordField.visible = false
             passwordField.enabled = false
 
-            opacitymask.visible = false
             name.visible = false
 
             containerimg.visible = false
@@ -137,7 +128,6 @@ FocusScope {
             passwordField.visible = false
             passwordField.enabled = false
 
-            opacitymask.visible = false
             name.visible = false
 
             containerimg.visible = false
@@ -164,7 +154,6 @@ FocusScope {
                 passwordField.visible = false
                 passwordField.enabled = false
 
-                opacitymask.visible = false
                 name.visible = false
 
                 containerimg.visible = false

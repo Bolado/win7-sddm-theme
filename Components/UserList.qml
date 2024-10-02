@@ -61,13 +61,6 @@ Rectangle {
             y: 5
         }
 
-        OpacityMask {
-            id: img
-            anchors.fill: icon
-            source: icon
-            maskSource: mask
-        }
-
         Item {
             id: mask
             width: icon.width

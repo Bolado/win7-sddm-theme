@@ -44,7 +44,6 @@ FocusScope {
             rightPanel.visible = true
             leftPanel.visible = true
 
-            opacitymask.visible = true
             name.visible = true
 
             containerimg.visible = true
@@ -65,7 +64,6 @@ FocusScope {
             rightPanel.visible = true
             leftPanel.visible = true
 
-            opacitymask.visible = true
             name.visible = true
 
             containerimg.visible = true
@@ -86,7 +84,6 @@ FocusScope {
             rightPanel.visible = true
             leftPanel.visible = true
 
-            opacitymask.visible = true
             name.visible = true
 
             containerimg.visible = true
