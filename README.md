@@ -1,3 +1,5 @@
+#Fork to make work with NixOS
+
 # Windows 7 Login Screen SDDM Theme
 
 ## Table of contents
