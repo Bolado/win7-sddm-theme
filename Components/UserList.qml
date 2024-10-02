@@ -72,7 +72,6 @@ Rectangle {
             id: mask
             width: icon.width
             height: icon.height
-            layer.enabled: true
             visible: false
 
             Rectangle {
@@ -98,15 +97,6 @@ Rectangle {
                 horizontalCenter: img.horizontalCenter
                 top: img.bottom
                 topMargin: 18
-            }
-
-            layer.enabled: true
-            layer.effect: DropShadow {
-                verticalOffset: 1
-                horizontalOffset: 1
-                color: "black"
-                radius: 7
-                samples: 20
             }
         }
     }

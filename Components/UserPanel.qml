@@ -73,7 +73,6 @@ FocusScope {
         id: mask
         width: icon.width
         height: icon.height
-        layer.enabled: true
         visible: false
 
         Rectangle {
@@ -97,15 +96,6 @@ FocusScope {
             topMargin: 32
             horizontalCenter: icon.horizontalCenter
             top: icon.bottom
-        }
-
-        layer.enabled: true
-        layer.effect: DropShadow {
-            verticalOffset: 1
-            horizontalOffset: 1
-            color: "#99000000"
-            radius: 2
-            samples: 2
         }
     }
 

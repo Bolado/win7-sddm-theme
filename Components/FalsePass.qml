@@ -18,14 +18,6 @@ FocusScope {
         font.family: Qt.resolvedUrl("../fonts") ? "Segoe UI" : segoeui.name
         renderType: Text.NativeRendering
         x: -100
-
-        layer.enabled: true
-        layer.effect: DropShadow {
-            verticalOffset: 1
-            color: "#000"
-            radius: 7
-            samples: 20
-        }
     }
 
     Button {

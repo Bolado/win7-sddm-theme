@@ -24,14 +24,6 @@ Rectangle {
         font.pointSize: 20
         anchors.centerIn: parent
         font.kerning: false
-        layer.enabled: true
-        layer.effect: DropShadow {
-            verticalOffset: 1
-            horizontalOffset: 1
-            color: "#99000000"
-            radius: 2
-            samples: 2
-        }
     }
 }
 
