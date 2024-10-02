@@ -50,10 +50,7 @@ FocusScope {
         visible: false
 
         onStatusChanged: {
-            if (icon.status == Image.Error)
-                icon.source = "../Assets/user1.png"
-            else
-                "/var/lib/AccountsService/icons/" + name
+            icon.source = "../Assets/user1.png"
         }
 
         x: -(icon.width / 2)
