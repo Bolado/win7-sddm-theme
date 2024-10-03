@@ -20,6 +20,8 @@ FocusScope {
 
             falsePass.visible = true
             falsePass.focus = true
+
+            icon.visible = true
         }
 
         function onLoginSucceeded() {}
@@ -47,9 +49,11 @@ FocusScope {
         width: 128
         height: 128
         smooth: true
-        visible: false
+        visible: true
 
-        icon.source = "../Assets/user1.png"
+        onStatusChanged: {
+            icon.source = "../Assets/user1.png"
+        }
 
         x: -(icon.width / 2)
         y: -(icon.width * 2) + (icon.width * 0.8)
@@ -105,6 +109,7 @@ FocusScope {
             passwordField.enabled = false
 
             name.visible = false
+            icon.visible = false
 
             containerimg.visible = false
 
@@ -124,6 +129,7 @@ FocusScope {
             passwordField.enabled = false
 
             name.visible = false
+            icon.visible = false
 
             containerimg.visible = false
 
@@ -150,6 +156,7 @@ FocusScope {
                 passwordField.enabled = false
 
                 name.visible = false
+                icon.visible = false
 
                 containerimg.visible = false
 

@@ -48,11 +48,10 @@ Rectangle {
             width: 46
             height: icon.width
             smooth: true
-            visible: false
+            visible: true
 
-            icon.source = "../Assets/user1.png"
+            source: "../Assets/user1.png"
             
-
             x: 12
             y: 5
         }
@@ -83,8 +82,8 @@ Rectangle {
             color: "white"
 
             anchors {
-                horizontalCenter: img.horizontalCenter
-                top: img.bottom
+                horizontalCenter: icon.horizontalCenter
+                top: icon.bottom
                 topMargin: 18
             }
         }
