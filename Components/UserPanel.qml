@@ -49,9 +49,7 @@ FocusScope {
         smooth: true
         visible: false
 
-        onStatusChanged: {
-            icon.source = "../Assets/user1.png"
-        }
+        icon.source = "../Assets/user1.png"
 
         x: -(icon.width / 2)
         y: -(icon.width * 2) + (icon.width * 0.8)

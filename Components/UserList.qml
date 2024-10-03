@@ -50,9 +50,8 @@ Rectangle {
             smooth: true
             visible: false
 
-            onStatusChanged: {
-                icon.source = "../Assets/user1.png"
-            }
+            icon.source = "../Assets/user1.png"
+            
 
             x: 12
             y: 5
